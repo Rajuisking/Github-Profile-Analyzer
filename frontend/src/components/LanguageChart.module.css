@@ -1,0 +1,42 @@
+.card {
+  background: #fff;
+  border-radius: 14px;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  margin-bottom: 1.5rem;
+}
+
+.title {
+  font-size: 15px;
+  font-weight: 700;
+  color: #1e2a3a;
+  margin-bottom: 14px;
+}
+
+.chartWrap {
+  height: 180px;
+  margin-bottom: 14px;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.langRow {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.langName { flex: 1; color: #1e2a3a; }
+.langCount { color: #94a3b8; font-size: 12px; }
